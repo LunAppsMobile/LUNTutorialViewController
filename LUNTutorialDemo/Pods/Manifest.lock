@@ -1,0 +1,10 @@
+PODS:
+  - FXPageControl (1.4)
+
+DEPENDENCIES:
+  - FXPageControl
+
+SPEC CHECKSUMS:
+  FXPageControl: 5057bf21537579b40ff30e119cd425d16d8ef90a
+
+COCOAPODS: 0.39.0

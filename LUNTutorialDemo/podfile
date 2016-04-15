@@ -1,0 +1,4 @@
+use_frameworks!
+target ‘LUNTutorialDemo’ do
+  pod 'FXPageControl'
+end

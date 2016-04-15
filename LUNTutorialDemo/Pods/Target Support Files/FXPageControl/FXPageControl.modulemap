@@ -1,0 +1,6 @@
+framework module FXPageControl {
+  umbrella header "FXPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

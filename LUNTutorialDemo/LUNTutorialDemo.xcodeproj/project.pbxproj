@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3A74C6E1B9E9C655154E27 /* Pods_LUNTutorialDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44128279A785135E492EDA92 /* Pods_LUNTutorialDemo.framework */; };
+		E703BA5C1CB3DE0000DF92AB /* LUNBackgroundPatternedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E703BA5B1CB3DE0000DF92AB /* LUNBackgroundPatternedView.xib */; };
+		E703BA5F1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E703BA5E1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.m */; };
+		E703BA631CB3E7B100DF92AB /* LUNSlidingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E703BA621CB3E7B100DF92AB /* LUNSlidingImageView.m */; };
+		E703BA651CB3E7C400DF92AB /* LUNSlidingImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E703BA641CB3E7C400DF92AB /* LUNSlidingImageView.xib */; };
+		E71085011C932D780080F947 /* LUNTapPassingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E71084FD1C932D780080F947 /* LUNTapPassingScrollView.m */; };
+		E71085021C932D780080F947 /* UIView+EnumerationForTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E71085001C932D780080F947 /* UIView+EnumerationForTest.m */; };
+		E722E4841C8D7A0000301200 /* LUNTutorialAnimator.h in Sources */ = {isa = PBXBuildFile; fileRef = E722E47C1C8D79BC00301200 /* LUNTutorialAnimator.h */; };
+		E722E4851C8D7A0000301200 /* LUNTutorialBackgroundAnimator.h in Sources */ = {isa = PBXBuildFile; fileRef = E722E47E1C8D79BC00301200 /* LUNTutorialBackgroundAnimator.h */; };
+		E722E4861C8D7A0000301200 /* LUNTutorialBackgroundDataSource.h in Sources */ = {isa = PBXBuildFile; fileRef = E722E4811C8D79BC00301200 /* LUNTutorialBackgroundDataSource.h */; };
+		E722E49E1C8D8B7500301200 /* LUNTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E722E49D1C8D8B7500301200 /* LUNTutorialViewController.m */; };
+		E7481D0B1CB7D6FD007A974C /* LUNNatureWireframeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7481D0A1CB7D6FD007A974C /* LUNNatureWireframeView.xib */; };
+		E7481D0E1CB7DE3B007A974C /* LUNNatureWireframeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7481D0D1CB7DE3B007A974C /* LUNNatureWireframeView.m */; };
+		E7481D121CB7DEA5007A974C /* LUNXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7481D111CB7DEA5007A974C /* LUNXibView.m */; };
+		E75FFE0D1C871F97004C636B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FFE0C1C871F97004C636B /* main.m */; };
+		E75FFE101C871F97004C636B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FFE0F1C871F97004C636B /* AppDelegate.m */; };
+		E75FFE131C871F97004C636B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FFE121C871F97004C636B /* ViewController.m */; };
+		E75FFE161C871F97004C636B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75FFE141C871F97004C636B /* Main.storyboard */; };
+		E75FFE181C871F97004C636B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75FFE171C871F97004C636B /* Assets.xcassets */; };
+		E75FFE1B1C871F97004C636B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75FFE191C871F97004C636B /* LaunchScreen.storyboard */; };
+		E770D8531C9878BC003FDA4F /* LUNRotatingWireframesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E770D8521C9878BC003FDA4F /* LUNRotatingWireframesAnimator.m */; };
+		E7AC7FDD1CBBB6B1006B89C9 /* Brandon_bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7AC7FDA1CBBB6B1006B89C9 /* Brandon_bld.otf */; };
+		E7AC7FDE1CBBB6B1006B89C9 /* Brandon_blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7AC7FDB1CBBB6B1006B89C9 /* Brandon_blk.otf */; };
+		E7AC7FDF1CBBB6B1006B89C9 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7AC7FDC1CBBB6B1006B89C9 /* Brandon_reg.otf */; };
+		E7AC7FE71CBBFD2B006B89C9 /* LUNAnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AC7FE61CBBFD2B006B89C9 /* LUNAnimalsViewController.m */; };
+		E7E507E31CB561C20018926B /* LUNNatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E507E21CB561C20018926B /* LUNNatureViewController.m */; };
+		E7EDAC8F1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EDAC8E1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.m */; };
+		E7F21E831CB2AA9700A4D411 /* LUNLabelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F21E7B1CB2AA9700A4D411 /* LUNLabelsView.m */; };
+		E7F21E841CB2AA9700A4D411 /* LUNLabelsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F21E7C1CB2AA9700A4D411 /* LUNLabelsView.xib */; };
+		E7F21E851CB2AA9700A4D411 /* LUNStaticView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F21E7F1CB2AA9700A4D411 /* LUNStaticView.m */; };
+		E7F21E861CB2AA9700A4D411 /* LUNStaticView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F21E801CB2AA9700A4D411 /* LUNStaticView.xib */; };
+		E7F21E871CB2AA9700A4D411 /* LUNGalaxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F21E821CB2AA9700A4D411 /* LUNGalaxyViewController.m */; };
+		E7F21E8B1CB2B11100A4D411 /* LUNNewYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F21E8A1CB2B11100A4D411 /* LUNNewYearViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44128279A785135E492EDA92 /* Pods_LUNTutorialDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUNTutorialDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA9BC598E52CDCEC809430D /* Pods-LUNTutorialDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUNTutorialDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LUNTutorialDemo/Pods-LUNTutorialDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E703BA5B1CB3DE0000DF92AB /* LUNBackgroundPatternedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUNBackgroundPatternedView.xib; sourceTree = "<group>"; };
+		E703BA5D1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNBackgroundPatternedView.h; sourceTree = "<group>"; };
+		E703BA5E1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNBackgroundPatternedView.m; sourceTree = "<group>"; };
+		E703BA611CB3E7B100DF92AB /* LUNSlidingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNSlidingImageView.h; sourceTree = "<group>"; };
+		E703BA621CB3E7B100DF92AB /* LUNSlidingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNSlidingImageView.m; sourceTree = "<group>"; };
+		E703BA641CB3E7C400DF92AB /* LUNSlidingImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUNSlidingImageView.xib; sourceTree = "<group>"; };
+		E71084FC1C932D780080F947 /* LUNTapPassingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTapPassingScrollView.h; sourceTree = "<group>"; };
+		E71084FD1C932D780080F947 /* LUNTapPassingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNTapPassingScrollView.m; sourceTree = "<group>"; };
+		E71084FF1C932D780080F947 /* UIView+EnumerationForTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EnumerationForTest.h"; sourceTree = "<group>"; };
+		E71085001C932D780080F947 /* UIView+EnumerationForTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EnumerationForTest.m"; sourceTree = "<group>"; };
+		E722E47C1C8D79BC00301200 /* LUNTutorialAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialAnimator.h; sourceTree = "<group>"; };
+		E722E47E1C8D79BC00301200 /* LUNTutorialBackgroundAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialBackgroundAnimator.h; sourceTree = "<group>"; };
+		E722E4811C8D79BC00301200 /* LUNTutorialBackgroundDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialBackgroundDataSource.h; sourceTree = "<group>"; };
+		E722E4891C8D7AE400301200 /* LUNTutorialLabelAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialLabelAnimator.h; sourceTree = "<group>"; };
+		E722E48B1C8D7CCD00301200 /* LUNTutorialScrollAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LUNTutorialScrollAnimator.h; path = LUNTutorialDemo/LUNTutorial/Interfaces/LUNTutorialAnimator/LUNTutroialScrollAnimator/LUNTutorialScrollAnimator.h; sourceTree = SOURCE_ROOT; };
+		E722E48F1C8D7EC400301200 /* LUNTutorialWireframesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialWireframesDataSource.h; sourceTree = "<group>"; };
+		E722E4921C8D81DA00301200 /* LUNTutorialInnerWireframesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LUNTutorialInnerWireframesDataSource.h; path = LUNTutorialDemo/LUNTutorial/Interfaces/LUNTutorialDataSource/LUNTutorialInnerWireframesDataSource/LUNTutorialInnerWireframesDataSource.h; sourceTree = SOURCE_ROOT; };
+		E722E4941C8D82EC00301200 /* LUNTutorialStaticContentViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialStaticContentViewDataSource.h; sourceTree = "<group>"; };
+		E722E4961C8D835F00301200 /* LUNTutorialIconDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialIconDataSource.h; sourceTree = "<group>"; };
+		E722E4981C8D83D700301200 /* LUNTutorialIconAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialIconAnimator.h; sourceTree = "<group>"; };
+		E722E49A1C8D892C00301200 /* LUNTutorialLabelsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialLabelsDataSource.h; sourceTree = "<group>"; };
+		E722E49C1C8D8B7500301200 /* LUNTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialViewController.h; sourceTree = "<group>"; };
+		E722E49D1C8D8B7500301200 /* LUNTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNTutorialViewController.m; sourceTree = "<group>"; };
+		E722E4A31C8D93ED00301200 /* LUNTutorialDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialDataSource.h; sourceTree = "<group>"; };
+		E734D9B41CAD7ABD008A3E28 /* LUNTutorialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialDelegate.h; sourceTree = "<group>"; };
+		E7481D0A1CB7D6FD007A974C /* LUNNatureWireframeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUNNatureWireframeView.xib; sourceTree = "<group>"; };
+		E7481D0C1CB7DE3B007A974C /* LUNNatureWireframeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNNatureWireframeView.h; sourceTree = "<group>"; };
+		E7481D0D1CB7DE3B007A974C /* LUNNatureWireframeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNNatureWireframeView.m; sourceTree = "<group>"; };
+		E7481D101CB7DEA5007A974C /* LUNXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNXibView.h; sourceTree = "<group>"; };
+		E7481D111CB7DEA5007A974C /* LUNXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNXibView.m; sourceTree = "<group>"; };
+		E75FFE081C871F97004C636B /* LUNTutorialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUNTutorialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75FFE0C1C871F97004C636B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E75FFE0E1C871F97004C636B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E75FFE0F1C871F97004C636B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E75FFE111C871F97004C636B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E75FFE121C871F97004C636B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E75FFE151C871F97004C636B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75FFE171C871F97004C636B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E75FFE1A1C871F97004C636B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E75FFE1C1C871F97004C636B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E770D8511C9878BC003FDA4F /* LUNRotatingWireframesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNRotatingWireframesAnimator.h; sourceTree = "<group>"; };
+		E770D8521C9878BC003FDA4F /* LUNRotatingWireframesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNRotatingWireframesAnimator.m; sourceTree = "<group>"; };
+		E7AC7FDA1CBBB6B1006B89C9 /* Brandon_bld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_bld.otf; sourceTree = "<group>"; };
+		E7AC7FDB1CBBB6B1006B89C9 /* Brandon_blk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_blk.otf; sourceTree = "<group>"; };
+		E7AC7FDC1CBBB6B1006B89C9 /* Brandon_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg.otf; sourceTree = "<group>"; };
+		E7AC7FE51CBBFD2B006B89C9 /* LUNAnimalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNAnimalsViewController.h; sourceTree = "<group>"; };
+		E7AC7FE61CBBFD2B006B89C9 /* LUNAnimalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNAnimalsViewController.m; sourceTree = "<group>"; };
+		E7E507E11CB561C20018926B /* LUNNatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNNatureViewController.h; sourceTree = "<group>"; };
+		E7E507E21CB561C20018926B /* LUNNatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNNatureViewController.m; sourceTree = "<group>"; };
+		E7EDAC8D1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LUNObjectAtIndex.h"; sourceTree = "<group>"; };
+		E7EDAC8E1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LUNObjectAtIndex.m"; sourceTree = "<group>"; };
+		E7F158AC1CBE9C480070648D /* LUNTutorialInnerWirefamesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialInnerWirefamesAnimator.h; sourceTree = "<group>"; };
+		E7F158AE1CBE9C560070648D /* LUNTutorialWireframeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTutorialWireframeAnimator.h; sourceTree = "<group>"; };
+		E7F21E7A1CB2AA9700A4D411 /* LUNLabelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNLabelsView.h; sourceTree = "<group>"; };
+		E7F21E7B1CB2AA9700A4D411 /* LUNLabelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNLabelsView.m; sourceTree = "<group>"; };
+		E7F21E7C1CB2AA9700A4D411 /* LUNLabelsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUNLabelsView.xib; sourceTree = "<group>"; };
+		E7F21E7E1CB2AA9700A4D411 /* LUNStaticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNStaticView.h; sourceTree = "<group>"; };
+		E7F21E7F1CB2AA9700A4D411 /* LUNStaticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNStaticView.m; sourceTree = "<group>"; };
+		E7F21E801CB2AA9700A4D411 /* LUNStaticView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUNStaticView.xib; sourceTree = "<group>"; };
+		E7F21E811CB2AA9700A4D411 /* LUNGalaxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNGalaxyViewController.h; sourceTree = "<group>"; };
+		E7F21E821CB2AA9700A4D411 /* LUNGalaxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNGalaxyViewController.m; sourceTree = "<group>"; };
+		E7F21E891CB2B11100A4D411 /* LUNNewYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNNewYearViewController.h; sourceTree = "<group>"; };
+		E7F21E8A1CB2B11100A4D411 /* LUNNewYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNNewYearViewController.m; sourceTree = "<group>"; };
+		EB2A5E04D41148450676C44D /* Pods-LUNTutorialDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUNTutorialDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LUNTutorialDemo/Pods-LUNTutorialDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75FFE051C871F97004C636B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3A74C6E1B9E9C655154E27 /* Pods_LUNTutorialDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146228C105D70FAE1BA4A456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA9BC598E52CDCEC809430D /* Pods-LUNTutorialDemo.debug.xcconfig */,
+				EB2A5E04D41148450676C44D /* Pods-LUNTutorialDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DC5A0F97D0C69D4F64E834A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44128279A785135E492EDA92 /* Pods_LUNTutorialDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E703BA5A1CB3DDDA00DF92AB /* BackgroundPatternedView */ = {
+			isa = PBXGroup;
+			children = (
+				E703BA5B1CB3DE0000DF92AB /* LUNBackgroundPatternedView.xib */,
+				E703BA5D1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.h */,
+				E703BA5E1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.m */,
+			);
+			path = BackgroundPatternedView;
+			sourceTree = "<group>";
+		};
+		E703BA601CB3E79100DF92AB /* SlidingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E703BA611CB3E7B100DF92AB /* LUNSlidingImageView.h */,
+				E703BA621CB3E7B100DF92AB /* LUNSlidingImageView.m */,
+				E703BA641CB3E7C400DF92AB /* LUNSlidingImageView.xib */,
+			);
+			path = SlidingImageView;
+			sourceTree = "<group>";
+		};
+		E71084FA1C932CFC0080F947 /* LUNTapPassingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E71084FB1C932D780080F947 /* LUNTapPassingScrollView */,
+				E71084FE1C932D780080F947 /* UIView+EnumerationForTest */,
+			);
+			path = LUNTapPassingScrollView;
+			sourceTree = "<group>";
+		};
+		E71084FB1C932D780080F947 /* LUNTapPassingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E71084FC1C932D780080F947 /* LUNTapPassingScrollView.h */,
+				E71084FD1C932D780080F947 /* LUNTapPassingScrollView.m */,
+			);
+			path = LUNTapPassingScrollView;
+			sourceTree = "<group>";
+		};
+		E71084FE1C932D780080F947 /* UIView+EnumerationForTest */ = {
+			isa = PBXGroup;
+			children = (
+				E71084FF1C932D780080F947 /* UIView+EnumerationForTest.h */,
+				E71085001C932D780080F947 /* UIView+EnumerationForTest.m */,
+			);
+			path = "UIView+EnumerationForTest";
+			sourceTree = "<group>";
+		};
+		E722E4731C8D79BC00301200 /* LUNTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				E770D84F1C98786B003FDA4F /* Realizations */,
+				E722E4741C8D79BC00301200 /* Abstractions */,
+				E722E4781C8D79BC00301200 /* Interfaces */,
+			);
+			path = LUNTutorial;
+			sourceTree = "<group>";
+		};
+		E722E4741C8D79BC00301200 /* Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				E722E49B1C8D8B5100301200 /* LUNTutorialViewController */,
+			);
+			name = Abstractions;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E722E4781C8D79BC00301200 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				E734D9B31CAD7A8D008A3E28 /* LUNTutorialDelegate */,
+				E722E4791C8D79BC00301200 /* LUNTutorialAnimator */,
+				E722E47F1C8D79BC00301200 /* LUNTutorialDataSource */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		E722E4791C8D79BC00301200 /* LUNTutorialAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E722E47B1C8D79BC00301200 /* LUNTutorialAnimator */,
+				E722E47D1C8D79BC00301200 /* LUNTutorialBackgroundAnimator */,
+				E722E4881C8D7AB000301200 /* LUNTutorialLabelAnimator */,
+				E7F158AD1CBE9C560070648D /* LUNTutorialWireframesAnimator */,
+				E7F158AB1CBE9C480070648D /* LUNTutorialInnerWireframesAnimator */,
+				E722E48A1C8D7B3A00301200 /* LUNTutroialScrollAnimator */,
+				E722E4971C8D839F00301200 /* LUNTutorialIconAnimator */,
+			);
+			path = LUNTutorialAnimator;
+			sourceTree = "<group>";
+		};
+		E722E47B1C8D79BC00301200 /* LUNTutorialAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E722E47C1C8D79BC00301200 /* LUNTutorialAnimator.h */,
+			);
+			path = LUNTutorialAnimator;
+			sourceTree = "<group>";
+		};
+		E722E47D1C8D79BC00301200 /* LUNTutorialBackgroundAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E722E47E1C8D79BC00301200 /* LUNTutorialBackgroundAnimator.h */,
+			);
+			path = LUNTutorialBackgroundAnimator;
+			sourceTree = "<group>";
+		};
+		E722E47F1C8D79BC00301200 /* LUNTutorialDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4A21C8D93D000301200 /* LUNTutorialDataSource */,
+				E722E4801C8D79BC00301200 /* LUNTutorialBackgroundDataSource */,
+				E722E48E1C8D7E8E00301200 /* LUNTutorialWireframesDataSource */,
+				E722E4911C8D817100301200 /* LUNTutorialInnerWireframesDataSource */,
+				E722E4931C8D823600301200 /* LUNTutorialStaticContentViewDataSource */,
+				E722E4951C8D833400301200 /* LUNTutorialIconDataSource */,
+				E722E4991C8D88EA00301200 /* LUNTutorialLabelsDataSource */,
+			);
+			path = LUNTutorialDataSource;
+			sourceTree = "<group>";
+		};
+		E722E4801C8D79BC00301200 /* LUNTutorialBackgroundDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4811C8D79BC00301200 /* LUNTutorialBackgroundDataSource.h */,
+			);
+			path = LUNTutorialBackgroundDataSource;
+			sourceTree = "<group>";
+		};
+		E722E4881C8D7AB000301200 /* LUNTutorialLabelAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4891C8D7AE400301200 /* LUNTutorialLabelAnimator.h */,
+			);
+			path = LUNTutorialLabelAnimator;
+			sourceTree = "<group>";
+		};
+		E722E48A1C8D7B3A00301200 /* LUNTutroialScrollAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E722E48B1C8D7CCD00301200 /* LUNTutorialScrollAnimator.h */,
+			);
+			name = LUNTutroialScrollAnimator;
+			path = LUNTutroialScroolAnimator;
+			sourceTree = "<group>";
+		};
+		E722E48E1C8D7E8E00301200 /* LUNTutorialWireframesDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E48F1C8D7EC400301200 /* LUNTutorialWireframesDataSource.h */,
+			);
+			path = LUNTutorialWireframesDataSource;
+			sourceTree = "<group>";
+		};
+		E722E4911C8D817100301200 /* LUNTutorialInnerWireframesDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4921C8D81DA00301200 /* LUNTutorialInnerWireframesDataSource.h */,
+			);
+			name = LUNTutorialInnerWireframesDataSource;
+			path = LUNtutorialInnerWireframesDataSource;
+			sourceTree = "<group>";
+		};
+		E722E4931C8D823600301200 /* LUNTutorialStaticContentViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4941C8D82EC00301200 /* LUNTutorialStaticContentViewDataSource.h */,
+			);
+			path = LUNTutorialStaticContentViewDataSource;
+			sourceTree = "<group>";
+		};
+		E722E4951C8D833400301200 /* LUNTutorialIconDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4961C8D835F00301200 /* LUNTutorialIconDataSource.h */,
+			);
+			path = LUNTutorialIconDataSource;
+			sourceTree = "<group>";
+		};
+		E722E4971C8D839F00301200 /* LUNTutorialIconAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4981C8D83D700301200 /* LUNTutorialIconAnimator.h */,
+			);
+			path = LUNTutorialIconAnimator;
+			sourceTree = "<group>";
+		};
+		E722E4991C8D88EA00301200 /* LUNTutorialLabelsDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E49A1C8D892C00301200 /* LUNTutorialLabelsDataSource.h */,
+			);
+			path = LUNTutorialLabelsDataSource;
+			sourceTree = "<group>";
+		};
+		E722E49B1C8D8B5100301200 /* LUNTutorialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E722E49C1C8D8B7500301200 /* LUNTutorialViewController.h */,
+				E722E49D1C8D8B7500301200 /* LUNTutorialViewController.m */,
+			);
+			path = LUNTutorialViewController;
+			sourceTree = "<group>";
+		};
+		E722E4A21C8D93D000301200 /* LUNTutorialDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E722E4A31C8D93ED00301200 /* LUNTutorialDataSource.h */,
+			);
+			path = LUNTutorialDataSource;
+			sourceTree = "<group>";
+		};
+		E734D9B31CAD7A8D008A3E28 /* LUNTutorialDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E734D9B41CAD7ABD008A3E28 /* LUNTutorialDelegate.h */,
+			);
+			path = LUNTutorialDelegate;
+			sourceTree = "<group>";
+		};
+		E7481D091CB7D6AA007A974C /* LUNNatureWireframeView */ = {
+			isa = PBXGroup;
+			children = (
+				E7481D0A1CB7D6FD007A974C /* LUNNatureWireframeView.xib */,
+				E7481D0C1CB7DE3B007A974C /* LUNNatureWireframeView.h */,
+				E7481D0D1CB7DE3B007A974C /* LUNNatureWireframeView.m */,
+			);
+			name = LUNNatureWireframeView;
+			path = LUNNatureWireframe;
+			sourceTree = "<group>";
+		};
+		E7481D0F1CB7DEA5007A974C /* LUNXibView */ = {
+			isa = PBXGroup;
+			children = (
+				E7481D101CB7DEA5007A974C /* LUNXibView.h */,
+				E7481D111CB7DEA5007A974C /* LUNXibView.m */,
+			);
+			path = LUNXibView;
+			sourceTree = "<group>";
+		};
+		E75FFDFF1C871F97004C636B = {
+			isa = PBXGroup;
+			children = (
+				E75FFE0A1C871F97004C636B /* LUNTutorialDemo */,
+				E75FFE091C871F97004C636B /* Products */,
+				146228C105D70FAE1BA4A456 /* Pods */,
+				5DC5A0F97D0C69D4F64E834A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E75FFE091C871F97004C636B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75FFE081C871F97004C636B /* LUNTutorialDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75FFE0A1C871F97004C636B /* LUNTutorialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7AC7FD91CBBB651006B89C9 /* Resources */,
+				E7F21E751CB2A9C300A4D411 /* Examples */,
+				E7EDAC8C1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex */,
+				E7481D0F1CB7DEA5007A974C /* LUNXibView */,
+				E71084FA1C932CFC0080F947 /* LUNTapPassingScrollView */,
+				E722E4731C8D79BC00301200 /* LUNTutorial */,
+				E75FFE0E1C871F97004C636B /* AppDelegate.h */,
+				E75FFE0F1C871F97004C636B /* AppDelegate.m */,
+				E75FFE111C871F97004C636B /* ViewController.h */,
+				E75FFE121C871F97004C636B /* ViewController.m */,
+				E75FFE141C871F97004C636B /* Main.storyboard */,
+				E75FFE171C871F97004C636B /* Assets.xcassets */,
+				E75FFE191C871F97004C636B /* LaunchScreen.storyboard */,
+				E75FFE1C1C871F97004C636B /* Info.plist */,
+				E75FFE0B1C871F97004C636B /* Supporting Files */,
+			);
+			path = LUNTutorialDemo;
+			sourceTree = "<group>";
+		};
+		E75FFE0B1C871F97004C636B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75FFE0C1C871F97004C636B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E770D84F1C98786B003FDA4F /* Realizations */ = {
+			isa = PBXGroup;
+			children = (
+				E770D8501C987881003FDA4F /* RotatingWireframesAnimator */,
+			);
+			path = Realizations;
+			sourceTree = "<group>";
+		};
+		E770D8501C987881003FDA4F /* RotatingWireframesAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E770D8511C9878BC003FDA4F /* LUNRotatingWireframesAnimator.h */,
+				E770D8521C9878BC003FDA4F /* LUNRotatingWireframesAnimator.m */,
+			);
+			path = RotatingWireframesAnimator;
+			sourceTree = "<group>";
+		};
+		E7AC7FD91CBBB651006B89C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7AC7FDA1CBBB6B1006B89C9 /* Brandon_bld.otf */,
+				E7AC7FDB1CBBB6B1006B89C9 /* Brandon_blk.otf */,
+				E7AC7FDC1CBBB6B1006B89C9 /* Brandon_reg.otf */,
+			);
+			name = Resources;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E7AC7FE41CBBFD2B006B89C9 /* AnimalsOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E7AC7FE51CBBFD2B006B89C9 /* LUNAnimalsViewController.h */,
+				E7AC7FE61CBBFD2B006B89C9 /* LUNAnimalsViewController.m */,
+			);
+			path = AnimalsOnboarding;
+			sourceTree = "<group>";
+		};
+		E7E507E01CB5616A0018926B /* NatureOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E7481D091CB7D6AA007A974C /* LUNNatureWireframeView */,
+				E7E507E11CB561C20018926B /* LUNNatureViewController.h */,
+				E7E507E21CB561C20018926B /* LUNNatureViewController.m */,
+			);
+			path = NatureOnboarding;
+			sourceTree = "<group>";
+		};
+		E7EDAC8C1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex */ = {
+			isa = PBXGroup;
+			children = (
+				E7EDAC8D1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.h */,
+				E7EDAC8E1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.m */,
+			);
+			path = "NSArray+LUNObjectAtIndex";
+			sourceTree = "<group>";
+		};
+		E7F158AB1CBE9C480070648D /* LUNTutorialInnerWireframesAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E7F158AC1CBE9C480070648D /* LUNTutorialInnerWirefamesAnimator.h */,
+			);
+			path = LUNTutorialInnerWireframesAnimator;
+			sourceTree = "<group>";
+		};
+		E7F158AD1CBE9C560070648D /* LUNTutorialWireframesAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				E7F158AE1CBE9C560070648D /* LUNTutorialWireframeAnimator.h */,
+			);
+			path = LUNTutorialWireframesAnimator;
+			sourceTree = "<group>";
+		};
+		E7F21E751CB2A9C300A4D411 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				E7AC7FE41CBBFD2B006B89C9 /* AnimalsOnboarding */,
+				E7E507E01CB5616A0018926B /* NatureOnboarding */,
+				E7F21E881CB2B0BF00A4D411 /* NewYearOnboarding */,
+				E7F21E771CB2AA9700A4D411 /* GalaxyOnboarding */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		E7F21E771CB2AA9700A4D411 /* GalaxyOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E7F21E781CB2AA9700A4D411 /* GalaxyViews */,
+				E7F21E811CB2AA9700A4D411 /* LUNGalaxyViewController.h */,
+				E7F21E821CB2AA9700A4D411 /* LUNGalaxyViewController.m */,
+			);
+			path = GalaxyOnboarding;
+			sourceTree = "<group>";
+		};
+		E7F21E781CB2AA9700A4D411 /* GalaxyViews */ = {
+			isa = PBXGroup;
+			children = (
+				E7F21E791CB2AA9700A4D411 /* LUNGalaxyLabelsView */,
+				E7F21E7D1CB2AA9700A4D411 /* LUNGalaxyStaticView */,
+			);
+			path = GalaxyViews;
+			sourceTree = "<group>";
+		};
+		E7F21E791CB2AA9700A4D411 /* LUNGalaxyLabelsView */ = {
+			isa = PBXGroup;
+			children = (
+				E7F21E7A1CB2AA9700A4D411 /* LUNLabelsView.h */,
+				E7F21E7B1CB2AA9700A4D411 /* LUNLabelsView.m */,
+				E7F21E7C1CB2AA9700A4D411 /* LUNLabelsView.xib */,
+			);
+			path = LUNGalaxyLabelsView;
+			sourceTree = "<group>";
+		};
+		E7F21E7D1CB2AA9700A4D411 /* LUNGalaxyStaticView */ = {
+			isa = PBXGroup;
+			children = (
+				E7F21E7E1CB2AA9700A4D411 /* LUNStaticView.h */,
+				E7F21E7F1CB2AA9700A4D411 /* LUNStaticView.m */,
+				E7F21E801CB2AA9700A4D411 /* LUNStaticView.xib */,
+			);
+			path = LUNGalaxyStaticView;
+			sourceTree = "<group>";
+		};
+		E7F21E881CB2B0BF00A4D411 /* NewYearOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E703BA601CB3E79100DF92AB /* SlidingImageView */,
+				E703BA5A1CB3DDDA00DF92AB /* BackgroundPatternedView */,
+				E7F21E891CB2B11100A4D411 /* LUNNewYearViewController.h */,
+				E7F21E8A1CB2B11100A4D411 /* LUNNewYearViewController.m */,
+			);
+			path = NewYearOnboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75FFE071C871F97004C636B /* LUNTutorialDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75FFE1F1C871F97004C636B /* Build configuration list for PBXNativeTarget "LUNTutorialDemo" */;
+			buildPhases = (
+				42B036CD1016816ABBDE532F /* Check Pods Manifest.lock */,
+				E75FFE041C871F97004C636B /* Sources */,
+				E75FFE051C871F97004C636B /* Frameworks */,
+				E75FFE061C871F97004C636B /* Resources */,
+				0AF7B43949ED2D4FD0C488AF /* Embed Pods Frameworks */,
+				670256ECDF45D65CEC3EAE1B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUNTutorialDemo;
+			productName = LUNTutorialDemo;
+			productReference = E75FFE081C871F97004C636B /* LUNTutorialDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75FFE001C871F97004C636B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lunapps;
+				TargetAttributes = {
+					E75FFE071C871F97004C636B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2KS947LFXJ;
+					};
+				};
+			};
+			buildConfigurationList = E75FFE031C871F97004C636B /* Build configuration list for PBXProject "LUNTutorialDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E75FFDFF1C871F97004C636B;
+			productRefGroup = E75FFE091C871F97004C636B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75FFE071C871F97004C636B /* LUNTutorialDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75FFE061C871F97004C636B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AC7FDE1CBBB6B1006B89C9 /* Brandon_blk.otf in Resources */,
+				E75FFE1B1C871F97004C636B /* LaunchScreen.storyboard in Resources */,
+				E75FFE181C871F97004C636B /* Assets.xcassets in Resources */,
+				E7AC7FDD1CBBB6B1006B89C9 /* Brandon_bld.otf in Resources */,
+				E703BA651CB3E7C400DF92AB /* LUNSlidingImageView.xib in Resources */,
+				E7AC7FDF1CBBB6B1006B89C9 /* Brandon_reg.otf in Resources */,
+				E703BA5C1CB3DE0000DF92AB /* LUNBackgroundPatternedView.xib in Resources */,
+				E7F21E861CB2AA9700A4D411 /* LUNStaticView.xib in Resources */,
+				E75FFE161C871F97004C636B /* Main.storyboard in Resources */,
+				E7481D0B1CB7D6FD007A974C /* LUNNatureWireframeView.xib in Resources */,
+				E7F21E841CB2AA9700A4D411 /* LUNLabelsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF7B43949ED2D4FD0C488AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LUNTutorialDemo/Pods-LUNTutorialDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B036CD1016816ABBDE532F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		670256ECDF45D65CEC3EAE1B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LUNTutorialDemo/Pods-LUNTutorialDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75FFE041C871F97004C636B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7481D0E1CB7DE3B007A974C /* LUNNatureWireframeView.m in Sources */,
+				E7AC7FE71CBBFD2B006B89C9 /* LUNAnimalsViewController.m in Sources */,
+				E703BA5F1CB3DE5A00DF92AB /* LUNBackgroundPatternedView.m in Sources */,
+				E7F21E871CB2AA9700A4D411 /* LUNGalaxyViewController.m in Sources */,
+				E703BA631CB3E7B100DF92AB /* LUNSlidingImageView.m in Sources */,
+				E71085011C932D780080F947 /* LUNTapPassingScrollView.m in Sources */,
+				E722E4841C8D7A0000301200 /* LUNTutorialAnimator.h in Sources */,
+				E7F21E8B1CB2B11100A4D411 /* LUNNewYearViewController.m in Sources */,
+				E722E4851C8D7A0000301200 /* LUNTutorialBackgroundAnimator.h in Sources */,
+				E722E4861C8D7A0000301200 /* LUNTutorialBackgroundDataSource.h in Sources */,
+				E75FFE131C871F97004C636B /* ViewController.m in Sources */,
+				E7F21E831CB2AA9700A4D411 /* LUNLabelsView.m in Sources */,
+				E7F21E851CB2AA9700A4D411 /* LUNStaticView.m in Sources */,
+				E7481D121CB7DEA5007A974C /* LUNXibView.m in Sources */,
+				E7E507E31CB561C20018926B /* LUNNatureViewController.m in Sources */,
+				E75FFE101C871F97004C636B /* AppDelegate.m in Sources */,
+				E71085021C932D780080F947 /* UIView+EnumerationForTest.m in Sources */,
+				E722E49E1C8D8B7500301200 /* LUNTutorialViewController.m in Sources */,
+				E770D8531C9878BC003FDA4F /* LUNRotatingWireframesAnimator.m in Sources */,
+				E7EDAC8F1CAAEE4E0033FB20 /* NSArray+LUNObjectAtIndex.m in Sources */,
+				E75FFE0D1C871F97004C636B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E75FFE141C871F97004C636B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75FFE151C871F97004C636B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75FFE191C871F97004C636B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75FFE1A1C871F97004C636B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75FFE1D1C871F97004C636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E75FFE1E1C871F97004C636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75FFE201C871F97004C636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA9BC598E52CDCEC809430D /* Pods-LUNTutorialDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LUNTutorialDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunapps.LUNTutorialDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E75FFE211C871F97004C636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2A5E04D41148450676C44D /* Pods-LUNTutorialDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LUNTutorialDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunapps.LUNTutorialDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75FFE031C871F97004C636B /* Build configuration list for PBXProject "LUNTutorialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75FFE1D1C871F97004C636B /* Debug */,
+				E75FFE1E1C871F97004C636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75FFE1F1C871F97004C636B /* Build configuration list for PBXNativeTarget "LUNTutorialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75FFE201C871F97004C636B /* Debug */,
+				E75FFE211C871F97004C636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75FFE001C871F97004C636B /* Project object */;
+}

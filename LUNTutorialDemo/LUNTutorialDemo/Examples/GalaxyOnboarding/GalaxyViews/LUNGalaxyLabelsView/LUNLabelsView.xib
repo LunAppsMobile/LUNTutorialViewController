@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Brandon_bld.otf">
+            <string>BrandonGrotesque-Bold</string>
+        </mutableArray>
+        <mutableArray key="Brandon_reg.otf">
+            <string>BrandonGrotesque-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LUNLabelsView">
+            <connections>
+                <outlet property="textLabel" destination="EmE-EG-75Y" id="ZlA-yq-kCe"/>
+                <outlet property="textLabelToTitleLabelVerticalSpacingConstraint" destination="HrU-KU-fcJ" id="yaY-HL-Hf0"/>
+                <outlet property="titleLabel" destination="fh8-cH-FMZ" id="Ov7-Vl-98H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="228"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AS5-mR-jhg" userLabel="leftSpacer">
+                    <rect key="frame" x="0.0" y="0.0" width="34" height="228"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDt-E7-yqf" userLabel="rightSpacer">
+                    <rect key="frame" x="335" y="0.0" width="34" height="228"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D8v-QI-Vun">
+                    <rect key="frame" x="34" y="0.0" width="301" height="228"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" misplaced="YES" text="Title label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fh8-cH-FMZ">
+                            <rect key="frame" x="0.0" y="0.0" width="301" height="19"/>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" misplaced="YES" text="TextLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmE-EG-75Y">
+                            <rect key="frame" x="0.0" y="39" width="301" height="188"/>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fh8-cH-FMZ" secondAttribute="trailing" id="6UH-ax-7ZL"/>
+                        <constraint firstAttribute="bottom" secondItem="EmE-EG-75Y" secondAttribute="bottom" id="DuG-qH-WAd"/>
+                        <constraint firstItem="EmE-EG-75Y" firstAttribute="leading" secondItem="D8v-QI-Vun" secondAttribute="leading" id="EEC-Sa-NY5"/>
+                        <constraint firstItem="fh8-cH-FMZ" firstAttribute="leading" secondItem="D8v-QI-Vun" secondAttribute="leading" id="GoC-65-Eio"/>
+                        <constraint firstItem="EmE-EG-75Y" firstAttribute="top" secondItem="fh8-cH-FMZ" secondAttribute="bottom" constant="20" id="HrU-KU-fcJ"/>
+                        <constraint firstItem="fh8-cH-FMZ" firstAttribute="top" secondItem="D8v-QI-Vun" secondAttribute="top" id="ShQ-ve-3mV"/>
+                        <constraint firstAttribute="trailing" secondItem="EmE-EG-75Y" secondAttribute="trailing" id="Wrs-e1-LLE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="D8v-QI-Vun" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4lW-Nj-6te"/>
+                <constraint firstItem="fDt-E7-yqf" firstAttribute="width" secondItem="AS5-mR-jhg" secondAttribute="width" id="DzD-1d-bQG"/>
+                <constraint firstItem="AS5-mR-jhg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LcS-8N-wpp"/>
+                <constraint firstItem="AS5-mR-jhg" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="60:640" id="Wp8-qm-tTj"/>
+                <constraint firstItem="D8v-QI-Vun" firstAttribute="leading" secondItem="AS5-mR-jhg" secondAttribute="trailing" id="YEz-Co-nUW"/>
+                <constraint firstItem="D8v-QI-Vun" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="dgd-9b-mXd"/>
+                <constraint firstAttribute="bottom" secondItem="AS5-mR-jhg" secondAttribute="bottom" id="lmQ-3I-Us7"/>
+                <constraint firstAttribute="bottom" secondItem="D8v-QI-Vun" secondAttribute="bottom" id="oUH-jt-A9u"/>
+                <constraint firstItem="fDt-E7-yqf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ogK-u3-7iY"/>
+                <constraint firstItem="AS5-mR-jhg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="q3b-h1-VIM"/>
+                <constraint firstAttribute="trailing" secondItem="fDt-E7-yqf" secondAttribute="trailing" id="uas-Y5-2Om"/>
+                <constraint firstItem="fDt-E7-yqf" firstAttribute="leading" secondItem="D8v-QI-Vun" secondAttribute="trailing" id="wT0-kB-eRR"/>
+                <constraint firstAttribute="bottom" secondItem="fDt-E7-yqf" secondAttribute="bottom" id="zdr-QP-qVR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="30" y="148"/>
+        </view>
+    </objects>
+</document>
