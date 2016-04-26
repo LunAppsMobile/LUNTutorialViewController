@@ -401,12 +401,12 @@ static const CGFloat kLUNDefaultMargin = 4.0f;
         }
         
         BOOL isCurrentStateSpecial = [self.specialStatesIndexes containsObject:@(leftIndex)];
+        CGPoint resultOffset = CGPointMake(mainScrollView.contentOffset.x - specialStatesPassed * CGRectGetWidth(mainScrollView.frame), 0);
         if (!isCurrentStateSpecial) {
-            CGPoint resultOffset = CGPointMake(mainScrollView.contentOffset.x - specialStatesPassed * CGRectGetWidth(mainScrollView.frame), 0);
-            [labelsScrollView setContentOffset:resultOffset animated:NO];
             [backgroundsScrollView setContentOffset:resultOffset animated:NO];
-            [iconsScrollView setContentOffset:resultOffset animated:NO];
         }
+        [labelsScrollView setContentOffset:resultOffset animated:NO];
+        [iconsScrollView setContentOffset:resultOffset animated:NO];
         
         
         if ([self.animator respondsToSelector:@selector(backgroundAnimationFromIndex:toIndex:offset:leftBackground:rightBackground:)]) {
