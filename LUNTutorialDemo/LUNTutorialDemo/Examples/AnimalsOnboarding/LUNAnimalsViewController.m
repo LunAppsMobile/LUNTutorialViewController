@@ -64,8 +64,8 @@ static const CGFloat kLUNNatureBackgroundShift = 175.0f;
 - (void)reloadData {
     [super reloadData];
     [self.view layoutIfNeeded];
-    for (NSInteger index = pages.count - 1; index >= 0; index--) {
-        [backgroundsScrollView bringSubviewToFront:[pages LUN_objectAtIndex:index]];
+    for (NSInteger index = backgroundPages.count - 1; index >= 0; index--) {
+        [backgroundsScrollView bringSubviewToFront:[backgroundPages LUN_objectAtIndex:index]];
     }
     
     UIView *workaroundView = [UIView new];

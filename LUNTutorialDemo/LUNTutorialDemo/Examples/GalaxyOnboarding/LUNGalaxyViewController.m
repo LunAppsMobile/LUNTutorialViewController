@@ -70,7 +70,7 @@ static const CGFloat kLUNGalaxyHeightMultiplier = 450.0f/1136.0f;
 
 - (void)reloadData {
     [super reloadData];
-    for (UIView *view in pages) {
+    for (UIView *view in backgroundPages) {
         view.clipsToBounds = YES;
     }
     mainScrollView.alwaysBounceHorizontal = NO;
@@ -163,16 +163,16 @@ static const CGFloat kLUNGalaxyHeightMultiplier = 450.0f/1136.0f;
             self.blackView.backgroundColor = [UIColor blackColor];
             [self.view insertSubview:self.blackView belowSubview:staticContentView];
         }
-        for (NSInteger index = startIndex; index < pages.count; ++index) {
-            [backgroundsScrollView sendSubviewToBack:[pages LUN_objectAtIndex:index]];
+        for (NSInteger index = startIndex; index < backgroundPages.count; ++index) {
+            [backgroundsScrollView sendSubviewToBack:[backgroundPages LUN_objectAtIndex:index]];
         }
-        [backgroundsScrollView bringSubviewToFront:[pages LUN_objectAtIndex:startIndex]];
+        [backgroundsScrollView bringSubviewToFront:[backgroundPages LUN_objectAtIndex:startIndex]];
         
-        [pages LUN_objectAtIndex:startIndex].transform = CGAffineTransformMakeTranslation(-1 * 150 * offset, 0);
-        [pages LUN_objectAtIndex:endIndex].transform = CGAffineTransformMakeTranslation(-250 + 250 * offset, 0);
+        [backgroundPages LUN_objectAtIndex:startIndex].transform = CGAffineTransformMakeTranslation(-1 * 150 * offset, 0);
+        [backgroundPages LUN_objectAtIndex:endIndex].transform = CGAffineTransformMakeTranslation(-250 + 250 * offset, 0);
         leftBackground.transform = CGAffineTransformMakeTranslation(440 * offset, 0);
         rightBackground.transform = CGAffineTransformMakeTranslation(20 - 20 *offset, 0);
-        self.blackView.transform = CGAffineTransformConcat([pages LUN_objectAtIndex:startIndex].transform, CGAffineTransformMakeTranslation(-CGRectGetWidth(backgroundsScrollView.frame) * offset, 0));
+        self.blackView.transform = CGAffineTransformConcat([backgroundPages LUN_objectAtIndex:startIndex].transform, CGAffineTransformMakeTranslation(-CGRectGetWidth(backgroundsScrollView.frame) * offset, 0));
     };
 }
 

@@ -75,12 +75,12 @@ static const CGFloat kLUNRightTitleShift = 250.0f;
                               [UIColor colorWithRed:122.0f / 255.0f green:197.0f / 255.0f blue:122.0f / 255.0f alpha:1.0f],
                               [UIColor colorWithRed:105.0f / 255.0f green:124.0f / 255.0f blue:210.0f / 255.0f alpha:1.0f]];
     self.translations = @[ @[[NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
-                           [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
-                           [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
-                           [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
-                           [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
-                           [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)]
-                           ],
+                             [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
+                             [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
+                             [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
+                             [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)],
+                             [NSValue valueWithCGPoint:CGPointMake(0.0f, 0.0f)]
+                             ],
                            
                            @[[NSValue valueWithCGPoint:CGPointMake(-20.0f * [self proportionalSize], 70.5f * [self proportionalSize])],
                              [NSValue valueWithCGPoint:CGPointMake(5.0f * [self proportionalSize], -63.0f * [self proportionalSize])],
@@ -104,7 +104,7 @@ static const CGFloat kLUNRightTitleShift = 250.0f;
 
 - (void)reloadData {
     [super reloadData];
-    for (UIView *view in pages) {
+    for (UIView *view in backgroundPages) {
         view.clipsToBounds = NO;
     }
     [self.view bringSubviewToFront:backgroundsScrollView];
@@ -150,7 +150,7 @@ static const CGFloat kLUNRightTitleShift = 250.0f;
 - (__kindof UIView *)staticContentView {
     LUNStaticView *staticView = [[LUNStaticView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     staticView.startButtonTapBlock = ^void() {
-         LUNNatureViewController *natureController = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([LUNNatureViewController class])];
+        LUNNatureViewController *natureController = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([LUNNatureViewController class])];
         [self presentViewController:natureController animated:YES completion:nil];
     };
     [staticView setupButtonText:@"LET'S START"];

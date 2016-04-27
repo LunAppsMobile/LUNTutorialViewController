@@ -92,7 +92,7 @@ static const CGFloat kLUNDefaultMargin = 4.0f;
             }
         }
     }
-    pages = [NSArray arrayWithArray:pagesArray];
+    backgroundPages = [NSArray arrayWithArray:pagesArray];
 }
 
 - (void)setupStaticBackground {
@@ -111,7 +111,7 @@ static const CGFloat kLUNDefaultMargin = 4.0f;
     if ([self.dataSource respondsToSelector:@selector(dynamicBackgroundViewAtIndex:)]) {
         NSMutableArray *dynamicViews = [NSMutableArray new];
         for (NSInteger index = 0; index < self.numberOfRealPages; ++index) {
-            UIView *currentPage = pages[index];
+            UIView *currentPage = backgroundPages[index];
             UIView *viewForIndex = [self.dataSource dynamicBackgroundViewAtIndex:index];
             [dynamicViews addObject:viewForIndex];
             viewForIndex.translatesAutoresizingMaskIntoConstraints = NO;
@@ -129,7 +129,7 @@ static const CGFloat kLUNDefaultMargin = 4.0f;
     if ([self.dataSource respondsToSelector:@selector(wireframeViewForIndex:)]) {
         NSMutableArray *wireframes = [NSMutableArray new];
         for (NSInteger index = 0; index < self.numberOfRealPages; ++index) {
-            UIView *currentPage = pages[index];
+            UIView *currentPage = backgroundPages[index];
             UIView *wireframeForIndex = [self.dataSource wireframeViewForIndex:index];
             wireframeForIndex.translatesAutoresizingMaskIntoConstraints = NO;
             [wireframes addObject:wireframeForIndex];
