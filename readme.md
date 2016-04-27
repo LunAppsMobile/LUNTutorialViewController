@@ -32,7 +32,7 @@ Examples
 
 ![2_scaled.gif](https://i2.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/2_scaled.gif?zoom=2&resize=500%2C334&ssl=1)
 
-![3_scaled.gif](https://i0.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/3.gif?zoom=2&resize=570%2C381&ssl=1)
+![3_scaled.gif](https://i1.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/3_scaled-1.gif?zoom=2&resize=500%2C334&ssl=1)
 
 ![4_scaled.gif](https://i0.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/4_scaled-2.gif?zoom=2&resize=500%2C334&ssl=1)
 
