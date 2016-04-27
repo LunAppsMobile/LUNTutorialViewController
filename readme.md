@@ -3,8 +3,12 @@
 
 This project aims simplification of creation of onboarding/tutorial of your iOS app.
 
-Please check this [article](https://lunapps.com/blog/LUNTutorialViewController/) on our blog.
+Please check this [article](https://lunapps.com/blog/onboarding-framework-for-ios/) on our blog.
 
+Purpose 
+-------
+
+Good onboardings help users start using the app right away. It’s a really cool thing that makes your app get some brownies from happy users and probably helps you increase the retention rate of your application.
 
 Supported OS & SDK Versions
 ---------------------------
@@ -24,15 +28,15 @@ LUNTutorialViewController is derived from UIViewController and - as with all UIK
 Examples
 --------
 
-![1_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/1_scaled.gif)
+![1_scaled.gif](https://i1.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/1_scaled.gif?zoom=2&resize=500%2C334&ssl=1)
 
-![2_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/2_scaled.gif)
+![2_scaled.gif](https://i2.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/2_scaled.gif?zoom=2&resize=500%2C334&ssl=1)
 
-![3_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/3_scaled.gif)
+![3_scaled.gif](https://i0.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/3.gif?zoom=2&resize=570%2C381&ssl=1)
 
-![4_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/4_scaled.gif)
+![4_scaled.gif](https://i2.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/4.gif?zoom=2&resize=570%2C381&ssl=1)
 
-![5_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/5_scaled.gif)
+![5_scaled.gif](https://i1.wp.com/lunapps.com/blog/wp-content/uploads/2016/04/5_scaled-1.gif?zoom=2&resize=500%2C334&ssl=1)
 
 
 Installation
