@@ -24,8 +24,15 @@ LUNTutorialViewController is derived from UIViewController and - as with all UIK
 Examples
 --------
 
-![5_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/5_scaled.gif)
+![1_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/1_scaled.gif)
 
+![2_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/2_scaled.gif)
+
+![3_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/3_scaled.gif)
+
+![4_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/4_scaled.gif)
+
+![5_scaled.gif](https://lunapps.com/blog/wp-content/uploads/2016/04/5_scaled.gif)
 
 
 Installation
