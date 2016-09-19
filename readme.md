@@ -44,6 +44,12 @@ Installation
 
 To use the LUNTutorialViewController class in an app, just drag the LUNTutorialViewController, LUNTapPassingScrollView class files and NSArray+LUNObjectAtIndex category files  (demo files and assets are not needed) into your project.
 
+Also you can use CocoaPods 
+### Сocoapods version
+
+```ruby
+pod 'LUNTutorialViewController'
+```
 
 Properties
 ----------
